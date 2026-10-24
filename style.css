@@ -1,0 +1,14 @@
+:root { --bg: #0d0a08; --ink: #ecdcb8; --soft: #b4a68c; --brass: #c49a58; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 Georgia, "Times New Roman", serif; }
+main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-weight: 400; font-size: 32px; letter-spacing: 0.04em; margin: 12px 0 4px; }
+h2 { font-weight: 400; font-size: 15px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--brass); margin: 28px 0 6px; }
+p { margin: 0 0 12px; }
+.lead { font-size: 19px; }
+.meta { color: var(--soft); font-size: 14px; }
+a { color: var(--brass); }
+code { font-size: 14px; color: var(--soft); }
+.home img { display: block; }
+.home-page { text-align: center; padding-top: 64px; }
+.home-page img { margin: 0 auto; }
